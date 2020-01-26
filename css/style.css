@@ -1,0 +1,487 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+* {
+    margin: 0;
+    outline: 0;
+    padding: 0;
+}
+
+body{
+  background: #f9f9f9;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.logo{
+	float: left;
+    padding: 22px 0 18px;
+}
+#main-header{
+	background: #fff;
+}
+.header-top {
+	float: left;
+}
+.header-top img {
+	width: 100%;
+}
+
+  .bodyContainer{
+  	width: 100%;
+  	margin: 0 auto;
+  	max-width: 1080px;
+  	position: relative;
+  	clear: both;
+  	display: block;
+  }
+
+.header-mid {
+    float: left;
+    width: 100%;
+	display: block;
+	background: #fff;
+}
+}
+.logo {
+	float: left;
+}
+.header-mid-orta{
+	position: center;
+	padding: 0 250px;
+}
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    border-radius: 25px;
+    outline: none;
+    color: #acacac;
+    height: 40px;
+    background: #faf9f9;
+    padding-left: 10px;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+    width: 40px;
+    height: 36px;
+    border: none;
+    background: transparent;
+    text-align: center;
+    color: #ed008b;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+    top: 0;
+  
+}
+.wrap{
+    width: 473px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 24px;
+}
+
+
+
+.header-mid-right {
+	float: right;
+	margin-top: 15px;
+
+}
+.header-mid-right ul {
+    list-style: none;
+    margin-top: 10px;
+}
+.header-mid-right li {
+	float: left;
+	margin: 0 10px;
+}
+.header-mid-right a{ 
+	text-decoration: none;
+    margin-left: 15px;
+ }
+ .sepetIkon{
+    width: 15px;
+    height: 15px;
+    background: #ed008b;
+    border-radius: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 11px;
+    position: absolute;
+    right: 14px;
+    top: 17px;
+}
+.header-bottom{
+	width: 100%;
+	float: left;
+	border-top: 1px solid #ebeced;
+	border-bottom: 1px solid #ebeced;
+	background: #fff;
+}
+
+.menu {
+
+	width: 100%;
+    padding-top: 10px; 
+} 
+
+
+.menuSol ul{
+	list-style: none;
+}
+.menuSol li{
+	float: left;
+	margin-right: 30px;
+}
+.menuSol a {
+	    font-size: 12px;
+	    font-weight: 600;
+
+}
+.menuSol span img{
+    top: -10px;
+    position: absolute;
+    right: 165px;
+    height: 26px;
+}    
+.menuSol li:hover > a{
+ 	color: #ed008b;
+ 	text-decoration: none;
+ }
+.menuSol span a{
+	color: #ed008b;
+}
+.menuSol{
+	float: left;
+}
+.menuSag {
+	float: right;
+}
+.menuSag ul{
+	list-style: none;
+}
+.menuSag li{
+	float: left;
+}
+.menuSag li a{
+    font-size: 11px;
+    color: #afb0b1;
+
+}
+.menuSag li:hover > a{
+ 	color: #ed008b;
+ 	text-decoration: none;
+ }
+ .menuSag img{
+ 	margin-right: 10px;
+ }
+
+.icerik {
+	float: left;
+    width: 100%;
+    display: block;
+}
+
+.kargoBlok{
+	position: center;
+}
+ .kargoBlok ul{
+ 	list-style: none;
+ 	float: left;
+    width: 100%;
+ }
+ .kargoBlok ul li{
+ 	float:left;
+ }
+ .kargoBlok img{
+    border: 1px solid #ebeced;
+    border-radius: 5px; 
+    max-width: 100%;
+    margin: 15px 0;
+
+ }
+.kargoIkon{
+    position: absolute;
+    right: -40px;
+    bottom: -75px;
+    color: #000;
+    font-size: 11px;
+    font-weight: 600;
+    text-align: center;
+}
+.kargoIkon i{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+ .solBannerBlok {
+ 	float: left;
+    margin: 0;
+    padding: 0;
+    width: calc(100% - 300px);
+ }
+.solBlokUrunlerIcerik {
+    clear: both;
+    float: none;
+    width: 745px;
+    position: relative;
+    border: 1px solid transparent;
+    border-color: #d4d4d4;
+    margin-bottom: 20px;
+    overflow: hidden;
+    padding: 10px 0;
+}
+..solBLokUrunler{
+    width: calc(100% - 300px);
+    padding: 0 20px;
+}
+.solBLokUrunlerBaslik{
+    position: relative;
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 0 !important;
+    margin-top: 5px !important;
+}
+.solBLokUrunlerBaslik h5{
+    color: #000;
+    font-weight: bold;
+}
+.urunIcerik{
+    float: left;
+}
+.urunResim{
+    float: left;
+    width: 25%;
+    padding: 0 5px;
+}
+
+.resimAlt p{
+    font-size: 11px;
+    color: #000;
+}
+.resimAlt span{
+    float: right;
+    color: #ec1e97;
+    line-height: 19px;
+    padding: 0 5px;
+}
+.tumunuGor{
+    position: absolute; 
+    top: 0; 
+    right: 2%;
+}
+.tumunuGor a{
+    color: #EA088C; 
+    text-decoration: underline;
+}
+ .siraliBlok {
+ 	clear: both;
+    float: none;
+    width: 745px;
+    position: relative;
+    padding-bottom: 31px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 15px 5px transparent;
+    transition: box-shadow 0.3s ease-in-out;
+ }
+
+ 
+ .blokAdi {
+ 	position: absolute;
+    background-color: #1b1b1b;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #ffF;
+    text-align: left;
+    padding: 8px 10px;
+    font-size: 13px;
+    transition: all 0.3s ease-in-out; 
+ }
+
+.siraliBlok:hover .blokAdi{
+    background-color: #ec1e97;
+}
+.siraliBlok:hover {
+    border-color: #ec1e97;
+}
+ .solBannerBlok img{
+ 	max-width: 100%;
+    display: block;
+    float: right;
+ }
+
+ .sagBannerBlok { 
+	float: right;
+	width: 300px;
+  }
+  .sagBannerBlok img {
+    margin-bottom: 15px;
+  }
+  .altBlok {
+    width: 100%;
+    float:left;
+    margin: 50px 0 20px;
+    border-top: 1px dashed #c0c0c0;
+    padding: 50px 0;
+    font-size: 12px;
+
+  }
+  .yazi h1{
+    color: #000;
+    font-weight: 700;
+    font-size: 18px;
+ 
+  }
+  
+  .footer {
+    float: left;
+    width: 100%; 
+    border-top: 1px solid #c6c7c8;
+  }
+
+  .footerTop {
+    float: left;
+    width: 100%;
+    background:#fff;
+}
+.footerTopIcerik{
+    float: left;
+    width: 100%;
+    margin: 30px 0 ; 
+}
+.footerTop h1{
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+    font-weight:700;
+    font-size: 18px;
+}
+.footer ul {
+    list-style: none;
+}
+.footerTop ul li{
+    float: left;
+    width: 20%;
+}
+.footerTop ul li a {
+    float: left;
+    width: 100%
+    font-size:12px;
+    line-height: 30px;
+    text-decoration: none;
+}
+.footerTop ul li a:hover {
+    color: #ed008b;
+}
+.footerMid {
+    float: left;
+    width: 100%;
+    position: relative;
+    background: #121212;
+}
+
+.footerMidBlok {
+
+    float: left;
+    width: 20%;
+    margin: 45px 0;
+}
+
+.footerMidBlok span{
+    display: table;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 700; 
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.footerMidBlok li {
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.footerMidBlok li a{
+    color: #fff;
+}
+.sosyalMedya ul{
+    float: left;
+}
+.sosyalMedya {
+    padding-top: 30px;
+}
+.sosyalMedya ul li  {
+    float: left;
+    width: 25%;
+    padding-right: 15px
+}
+.sosyalMedya ul li a{
+    font-size: 20px;
+}
+
+
+
+.mobil a {
+    float: left;
+    margin-right: 15px;
+}
+
+.buton{
+    margin-top: 100px;
+}
+
+.buton a {
+    float: left;
+    background: #ed008b;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 50px;
+    padding: 0 20px;
+
+}
+.buton a i {
+        font-size: 18px;
+    margin-left: 15px;
+}
+.footerMidBlok  ul > li > a:hover {
+    color:#ed008b;
+    text-decoration: none;
+}
+
+.footerBottom{
+    background:#383838;
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+}
+}
+}
+.altKisim {
+    float: left;
+    color: #8a8a8a;
+    font-size: 10px;
+    font-weight: normal;
+    line-height: 40px;
+}
